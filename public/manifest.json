@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "boxet",
+  "short_name": "Boxet",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Boxes, for text"
+}
