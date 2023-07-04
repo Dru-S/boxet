@@ -33,12 +33,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
-      # Get Node.js Version
-      - name: Get the Node.js version, from the .nvmrc file
-        id: nvmrc
-        run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
-        shell: bash
-
       # Setup Node.js
       - uses: actions/setup-node@v3
         with:
